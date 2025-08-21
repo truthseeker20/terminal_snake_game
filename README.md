@@ -9,6 +9,7 @@ g C Terminal Based Snake and Fruit Game
 => ncurses is a programming library that provides an API for creating text based user interfaces (TUI)
 
 => how it helped?
+
     1. I had to draw characters (snake-head and body, fruit, score, game over text etc,.) on specific points on the screen, and it allows us to treat the entire terminal screen as a grid of characters.
 
     2. it provides getchar() which is a blocking function, which I used when game over window display, and user has to press q or r for quit or restart respectively, so getchar() blocks the program until user presses any of the key.
